@@ -13,6 +13,7 @@ void display_arr(int* start, int* end) {
 
 
 void merge(int *start, int *end) {
+    // end pointer is inclusive
     if (start != end) {
 
         // sort subarrays
